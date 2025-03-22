@@ -1,6 +1,6 @@
-package dto;
+package com.kurinto.forexams.car;
 
-public record Car(
+public record CarDTO (
         Integer id,
         String make,
         String model,
